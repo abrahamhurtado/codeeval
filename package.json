@@ -1,0 +1,32 @@
+{
+  "name": "@arhcstolen/codeeval",
+  "version": "1.0.0",
+  "description": "My solutions for CodeEval challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --tap | tap-nyan"
+  },
+  "author": "Abraham Hurtado <arhc.hc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "0.11.0",
+    "babel-eslint": "4.1.8",
+    "eslint": "1.10.3"
+  },
+  "ava": {
+    "files": [
+      "easy/**/test.js",
+      "moderate/**/test.js",
+      "hard/**/test.js"
+    ]
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arhcstolen/codeeval.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arhcstolen/codeeval/issues"
+  },
+  "homepage": "https://github.com/arhcstolen/codeeval#readme"
+}
